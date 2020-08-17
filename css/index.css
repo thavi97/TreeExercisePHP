@@ -3,25 +3,25 @@ body {
 }
 #section1 {
   padding-top:50px;
-  height:800px;
+  min-height:800px;
   color: #fff;
   background: url('../img/background.jpg') no-repeat center center fixed;
 }
 #section2 {
   padding-top:50px;
-  height:800px;
+  min-height:800px;
   color: #fff;
   background-color: #1E88E5;
 }
 #section3 {
   padding-top:50px;
-  height:800px;
+  min-height:800px;
   color: #fff;
   background-color: #673ab7;
 }
 #section4 {
   padding-top:50px;
-  height:800px;
+  min-height:800px;
   color: #fff;
   background-color: #ff9800;
 }
