@@ -53,7 +53,10 @@
             <a class="nav-link" href="#section4">Rotate</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#section5">Contact</a>
+            <a class="nav-link" href="#section5">Carousel</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section6">Contact</a>
           </li>
         </ul>
       </nav>
@@ -98,7 +101,40 @@
           </div>
         </div>
       </div>
-      <div id="section5" class="container-fluid">
+      <div id="section5" class="carousel slide" data-ride="carousel">
+        <h1>Carousel</h1>
+        <p>This block showcases a carousel. Click the arrows to change image.</p>
+        <!-- Indicators -->
+        <div class="col-lg-12">
+          <ul class="carousel-indicators">
+            <li data-target="#section5" data-slide-to="0" class="active"></li>
+            <li data-target="#section5" data-slide-to="1"></li>
+            <li data-target="#section5" data-slide-to="2"></li>
+          </ul>
+
+          <!-- The slideshow -->
+          <div class="carousel-inner">
+            <div class="carousel-item active text-center">
+              <img src="img/sunset.jpg" alt="Sunset">
+            </div>
+            <div class="carousel-item text-center">
+              <img src="img/corn.jpg" alt="Corn">
+            </div>
+            <div class="carousel-item text-center">
+              <img src="img/tractor.jpg" alt="Tractor">
+            </div>
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="carousel-control-prev" href="#section5" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#section5" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>  
+      </div>
+      <div id="section6" class="container-fluid">
         <div class="container">
         <h1>Contact Us</h1>
           <form action="contact.php" method="POST" class="was-validated">

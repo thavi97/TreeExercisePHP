@@ -26,6 +26,12 @@ body {
   background-color: #ff9800;
 }
 #section5 {
+  padding-top:50px;
+  min-height:800px;
+  color: #fff;
+  background-color: #990000;
+}
+#section6 {
   margin-top:200px;
   margin-bottom: 100px;
 }
