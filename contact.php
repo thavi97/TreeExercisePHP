@@ -16,6 +16,6 @@ mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
   <title>Thank You!</title>
-  <p>Your contact form has been sent! <a href="/TreeExercisePHP">Click here</a> to return!</p>
+  <p>Your contact form has been sent! <a href="/tree-exercise-php">Click here</a> to return!</p>
 </head>
 </html>
