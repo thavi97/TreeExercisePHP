@@ -1,0 +1,115 @@
+body {
+  position: relative;
+}
+#section1 {
+  padding-top:50px;
+  height:800px;
+  color: #fff;
+  background: url('img/background.jpg') no-repeat center center fixed;
+}
+#section2 {
+  padding-top:50px;
+  height:800px;
+  color: #fff;
+  background-color: #1E88E5;
+}
+#section3 {
+  padding-top:50px;
+  height:800px;
+  color: #fff;
+  background-color: #673ab7;
+}
+#section4 {
+  padding-top:50px;
+  height:800px;
+  color: #fff;
+  background-color: #ff9800;
+}
+#section5 {
+  margin-top:200px;
+  margin-bottom: 100px;
+}
+
+.center {
+  margin-left: 70px;
+  margin-top: 300px;
+  text-align: center;
+  font-size: 72px;
+}
+
+.center-text {
+  margin-left: 70px;
+  text-align: center;
+}
+
+.moveright{
+  position: relative;
+}
+
+.zoomcss {
+  transition: transform .2s; /* Animation */
+  width: 500px;
+  height: auto;
+  margin-left: 100px;
+  margin-top:100px;
+}
+
+.zoomcss:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.zoomjquery {
+  width: 500px;
+  height: auto;
+  margin-left: 100px;
+  margin-top:100px;
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg); transform:rotate(360deg);
+  }
+}
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+.rotate {
+    width: 500px;
+    height: auto;
+    margin-left: 100px;
+    margin-top:100px;
+    -webkit-animation:spin 5s linear infinite;
+    -moz-animation:spin 5s linear infinite;
+    animation:spin 5s linear infinite;
+}
+
+@keyframes pan {
+  0% {left:0px;}
+  50% {left:300px;}
+  100% {left:0px;}
+}
+@-moz-keyframes pan {
+  0% {left:0px;}
+  50% {left:300px;}
+  100% {left:0px;}
+}
+@-webkit-keyframes pan {
+  0% {left:0px;}
+  50% {left:300px;}
+  100% {left:0px;}
+}
+.pan {
+  width: 500px;
+  height: auto;
+  position: relative;
+  -webkit-animation:pan 3s linear infinite;
+  -moz-animation:pan 3s linear infinite;
+  animation:pan 3s linear infinite;
+}
